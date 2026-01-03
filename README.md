@@ -19,6 +19,8 @@ streamlit
 plotly
 
 and here is a quick summary of the project:
+Executive Summary
+This project aims to predict whether an Instacart user will reorder a specific product in their next order. Using a dataset of over 3 million orders, we developed a robust Machine Learning pipeline that handles "Big Data" challenges through memory optimization. We engineered behavioral features and benchmarked seven different algorithms, ranging from linear baselines to automated ensembles. The final XGBoost model achieved an AUC of 0.834, offering the best balance of accuracy, speed, and interpretability. We further validated this model using SHAP explainability, robustness stress-testing, and causal inference analysis.
 
 
 
